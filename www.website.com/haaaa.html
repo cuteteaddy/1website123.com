@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order and payment area</title>
+</head>
+<body>
+  <form action="">
+    <h1><b>This page is for orders on this page</b></h1>
+    <p><b>You order your delicioud dishes from our website and we give you your ordersin 5 to 10 minutes or if you had any problems contact on this no.8815785268,8839204518,9826235323</b></p>
+    <hr>
+    <h3>What you need</h3>
+    <p>Required Fealds Are Followed By *</p>
+    <p>Your Order * <input type="text" name="Your_order" id="Your_order" required></p>
+    <hr>
+    <h1>Payment Area</h1>
+    <h2>Contact informations</h2>
+    <p>First Name: * <input type="text" name="" id="" required></p>
+    <p>Last Name: * <input type="text" name="" id="" required></p>
+    <p>
+        <fieldset>
+            <legend>Gender*</legend>
+            male <input type="radio" name="Gender" id="male" required><br> 
+            Female <input type="radio" name="Gender" id="Female"required><br>
+            Other <input type="radio" name="Gender" id="Other"required>
+        </fieldset>
+    </p>
+    <p><legend>Address:*</legend> <textarea name="Address" id="Address" cols="100" rows="10"required></textarea></p>
+     <p>Email:* <input type="email" name="emails" id="email"required></p> 
+     <p>Email Password:* <input type="password" name="Email_Password" id="Email_password"required></p>
+      <p>Pincode:* <input type="number" name="Pincode" id="Pincode"required></p>
+     <hr>
+     <h2>Payment information</h2>
+     <p>Payment type:*
+       <Select name="payment_Type" id="patment_Type">
+        <option value=""><b>--Select a card type--</b></option>
+        <option value="visa"required><b>Visa</b></option>
+        <option value="master Card"required><b>Master Card</b></option>
+        <option value="rupay"required><b>rupay</b></option>
+        <option value="COD"required><b>COD</b></option>
+       </Select>
+     </p>
+     <p>
+      Card Number:* <input type="number" name="card_no." id="card_no."required>
+     </p>
+     <p>
+      Expiration Date:* <input type="date" name="exp_date" id="exp_date"required>
+     </p>
+     CVV:* <input type="password" name="CVV" id="CVV"required>
+     <p><input type="button" value="Pay now"></p>
+  </form>
+</body>
+</html>
